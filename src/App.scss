@@ -1,0 +1,38 @@
+@import "components/header/style";
+@import "components/header/media";
+@import "components/hero/media";
+@import "components/hero/style";
+@import "components/new/style";
+@import "components/new/media";
+@import "components/genres/style";
+@import "components/genres/media";
+@import "components/slider/media";
+@import "components/slider/style";
+@import "components/aboutUs/style";
+@import "components/aboutUs/media";
+@import "components/footer/media";
+@import "components/footer/style";
+@import "components/allBooks/style";
+@import "components/allBooks/media";
+@import "components/detailPage/media";
+@import "components/detailPage/style";
+@import "components/myCart/style";
+@import "components/myCart/media";
+@import "components/pages/modal/style";
+@import "components/pages/modal/media";
+@import "components/allBooks/booksGenres/media";
+@import "components/allBooks/booksGenres/style";
+@import "components/searchResult/media";
+@import "components/searchResult/style";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Public+Sans:wght@100;200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 85%;
+  margin: 0 auto;
+  a{
+    text-decoration: none;
+  }
+}
