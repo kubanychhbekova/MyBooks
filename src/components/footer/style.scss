@@ -1,0 +1,111 @@
+#footer {
+  background: #818EEA;
+padding: 112px 0 64px 0;
+
+  .footer {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 80px;
+    h1 {
+      color: var(--background-color, #FFF);
+      font-family: Public Sans;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 550;
+      line-height: 44px;
+      letter-spacing: -1.5px;
+    }
+
+
+    &--block {
+      p {
+        color: var(--background-color, #FFF);
+        font-family: Public Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.3px;
+        margin: 24px 0;
+      }
+
+      &__input {
+        display: flex;
+        border-radius: 8px;
+        border: 0.5px solid #FFF;
+        justify-content: space-between;
+        padding: 8px 14px 8px 16px;
+        align-items: center;
+
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+          color: #FFFFFF;
+        }
+
+        input::placeholder {
+          color: #FFFFFF;
+          opacity: 0.699999988079071;
+        }
+
+        button {
+          background: transparent;
+          border: none;
+          margin-bottom: 4px;
+          color: var(--background-color, #FFF);
+          font-family: Public Sans;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: -0.3px;
+          cursor: pointer;
+        }
+      }
+
+    }
+
+    &--bottom {
+      display: flex;
+      gap: 140px;
+      margin: 0 0 0 80px;
+
+      h4 {
+        color: var(--background-color, #FFF);
+        font-family: Public Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: -0.4px;
+      }
+
+      &__title--footerP {
+        margin-top: 30px;
+      }
+
+      p {
+        color: var(--background-color, #FFF);
+
+        font-family: Public Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: -0.2px;
+        opacity: 0.5;
+      }
+      a {
+        color: #FFFFFF;
+      }
+      &__title--footerA{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+      }
+    }
+  }
+
+}
