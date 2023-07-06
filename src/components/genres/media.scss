@@ -1,0 +1,26 @@
+@media(max-width: 1200px) {
+  #genres{
+    .container{
+
+    }
+  }
+}
+@media(max-width: 1024px) {
+  #genres{
+    .container{
+      .genress{
+        &--zagalovok{
+          h1{
+            font-size: 35px;
+          }
+          p{
+            font-size: 16px;
+          }
+        }
+        &--block{
+          overflow-x: scroll;
+        }
+      }
+    }
+  }
+}
