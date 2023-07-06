@@ -1,60 +1,116 @@
 @media (max-width: 768px){
 #hero{
-
-  object-fit: contain;
-  .hero{
-    &--parent{
-      h1{
-        font-size: 30px;
+  .container{
+    .hero{
+      &--parent{
+        h1{
+          font-size: 45px;
+        }
       }
     }
   }
 
 }}
+@media (max-width: 655px) {
+  #hero{
+    max-height: 500px;
+   .container{
+     .hero{
+       &--parent{
+         h1{
+           font-size: 35px;
+           font-weight:650 ;
+         }
+       }
+     }
+   }
+  }
+}
+@media (max-width: 510px) {
+  #hero{
+   .container{
+     .hero{
+       &--parent{
+         h1{
+           font-size: 32px;
+           font-weight:650 ;
+         }
+       }
+     }
+   }
+  }
+}
 @media (max-width: 480px){
   #hero{
-
-    .hero{
-      &--parent{
-        padding-top: 150px;
-        h1{
-          font-size: 28px;
-        }
-        p{
-          font-size: 18px;
-          width: 200px;
-        }
-      }
-    }
+    max-height: 400px;
+ .container{
+   .hero{
+     &--parent{
+       padding-top: 160px;
+       h1{
+         font-size: 28px;
+       }
+       p{
+         font-size: 16px;
+         width: 300px;
+       }
+     }
+   }
+ }
   }
 }
 @media (max-width: 414px){
-  .container {
-    .hero {
-      &--parent {
-      }
-    }
-    .h1 {
-      font-size: 18px;
+ #hero{
+   .container {
+     .hero {
+       &--parent {
+         h1 {
+         font-size: 25px;
 
-    }
-  }
+       }
+         p{
+           width: 250px;
+         }
+       }
+     }
+
+   }
+ }
 }
 @media (max-width: 375px){
   #hero{
 
-    .hero{
-      &--parent {
-        h1 {
-          font-size: 20px;
+    .container{
+      .hero{
+
+        &--parent {
+          padding-top: 150px;
+          h1 {
+            font-size: 26px;
+          }
         }
       }
     }
   }
 }
 
-@media (max-width: 321px){
+@media (max-width: 335px){
   #hero{
-
+max-height: 300px;
+    .container{
+      .hero{
+        &--parent{
+            padding-top: 120px;
+          h1{
+            font-size: 22px;
+            font-weight: 600;
+          }
+          p{
+            font-size: 14px;
+            width: 200px;
+          }
+        }
+      }
+    }
   }
 }
