@@ -59,17 +59,22 @@
  }
   }
 }
-@media (max-width: 414px){
+@media (max-width: 415px){
  #hero{
+   max-height: 300px;
+margin-top: 70px !important;
+
    .container {
      .hero {
        &--parent {
+         padding-top: 115px;
          h1 {
-         font-size: 25px;
+         font-size: 20px;
 
        }
          p{
-           width: 250px;
+           font-size: 14px;
+           width: 200px;
          }
        }
      }
@@ -93,7 +98,6 @@
     }
   }
 }
-
 @media (max-width: 335px){
   #hero{
 max-height: 300px;

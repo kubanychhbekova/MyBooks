@@ -1,0 +1,75 @@
+@media (max-width: 768px) {
+  #slider{
+    padding: 105px 0 0 0 !important;
+    .slider{
+      gap: 55px !important;
+      &--title{
+       width: 90% !important;
+        padding-left: 5% !important;
+      }
+      &--cards{
+        margin-left: 5% !important;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #slider{
+    padding:90px 0 0 0 !important; ;
+    .slider{
+      gap: 40px !important;
+
+      &--cards{
+      &__card{
+        img{
+          width: 150px;
+        }
+        h3{
+          font-size: 16px;
+          max-width: 150px;
+        }
+        p{
+          font-size: 14px;
+          width: 150px;
+          font-weight: 400;
+        }
+
+      }
+      }
+    }
+  }
+}
+@media (max-width: 451px) {
+  #slider{
+    padding:85px 0 0 0 !important ;
+    .slider{
+      gap: 36px !important;
+      &--title{
+        h1{
+          font-size:35px !important ;
+        }
+        .view{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 414px) {
+  #slider{
+    padding:80px 0 16px 0 !important ;
+    .slider{
+      gap: 32px !important;
+
+    }
+  }
+}
+@media (max-width: 325px) {
+  #slider{
+    padding:70px 0 14px 0 !important ;
+    .slider{
+      gap: 25px !important;
+
+    }
+  }
+}
