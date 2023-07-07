@@ -4,7 +4,7 @@ import {useNavigate} from "react-router-dom";
 import Basket from "./basket";
 
 const Cart = () => {
-   const {basket} = useSelector(s => s)
+    const {basket} = useSelector(s => s)
     const navigate=useNavigate()
 
     return (

@@ -33,14 +33,14 @@ const DetailPage = () => {
         return {type: "ADD_TO_BASKET", payload: product}
     }
     const addQuantity = (el) => {
-     return   dispatch({type:"ADD_QUANTITY",payload:el})
+        return   dispatch({type:"ADD_QUANTITY",payload:el})
     }
     const deleteQuantity = (el) => {
-      return   dispatch({type:"DELETE_QUANTITY",payload:el})
+        return   dispatch({type:"DELETE_QUANTITY",payload:el})
     }
-const changeLike=(el)=>{
+    const changeLike=(el)=>{
         return dispatch({type:"CHANGE_LIKE",payload:el})
-}
+    }
     return (
         <div id="cards">
             <div className="container">
@@ -62,12 +62,12 @@ const changeLike=(el)=>{
 
                                             {
                                                 el.like?
-                                                <AiFillHeart style={{color: "#ec2727"}}
-                                                             onClick={()=>{
-                                                             changeLike(el)
-                                                             }
-                                                             }
-                                                             className="cards--title__top--icons__heart"/>
+                                                    <AiFillHeart style={{color: "#ec2727"}}
+                                                                 onClick={()=>{
+                                                                     changeLike(el)
+                                                                 }
+                                                                 }
+                                                                 className="cards--title__top--icons__heart"/>
                                                     :
                                                     <AiOutlineHeart
                                                         className="cards--title__top--icons__heart"
