@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import Data from "../data"
+import {Data} from "../data"
 import {useDispatch, useSelector} from "react-redux";
 import Slider from "react-slick"
 import {NavLink} from "react-router-dom";
@@ -99,7 +99,8 @@ const Scrollable = () => {
 
                     <div className="slider--cards">
                         <Slider {...settings}>
-                            {product.map((el) => {
+                            {
+                                product.map((el) => {
                                 return <div key={el.id} className="slider--cards__card">
                                     <NavLink key={el.id} to={`/books/${el.id}`}>
                                         <img src={el.image} alt=""/>
