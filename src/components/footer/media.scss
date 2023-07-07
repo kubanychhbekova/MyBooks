@@ -86,6 +86,7 @@
 
 @media(max-width: 992px) {
   #footer {
+    padding: 90px 0 44px 0 !important;
     .container {
       .footer {
 
@@ -105,6 +106,7 @@
 }
 @media (max-width: 890px) {
   #footer {
+    padding: 70px 0 34px 0 !important;
     .container {
       .footer {
         display: flex;
@@ -126,6 +128,7 @@
 
 @media(max-width: 768px) {
   #footer {
+    padding: 40px 0 24px 0 !important;
     .container {
       width: 90%;
 
@@ -141,7 +144,7 @@
 
 @media(max-width: 576px) {
   #footer {
-    padding: 32px 0;
+    padding: 32px 0 !important;
 
     .container {
       .footer {
@@ -178,12 +181,16 @@
 
 @media(max-width: 400px) {
   #footer {
+    padding: 28px 0 !important;
     .container {
       .footer {
         &--block {
           h1 {
             font-size: 25px;
           }
+        }
+        &--bottom__title{
+          flex-wrap: wrap !important;
         }
       }
     }

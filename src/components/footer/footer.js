@@ -23,7 +23,7 @@ const Footer = () => {
 
                         <div className='footer--bottom'>
                             <div className='footer--bottom__title'>
-                                <h4>Lorem Ipsum</h4>
+                                <h4>Books</h4>
                                 <div className='footer--bottom__title--footerP'>
                                     <p>For kids</p>
                                     <p>Romantic</p>
@@ -33,17 +33,17 @@ const Footer = () => {
 
                             </div>
                             <div className='footer--bottom__title'>
-                                <h4>Lorem Ipsum</h4>
+                                <h4>Categories</h4>
                                 <div className='footer--bottom__title--footerP'>
-                                    <p>fndfn</p>
-                                    <p>fdndfn</p>
-                                    <p>fdndn</p>
-                                    <p>fnfnn</p>
+                                    <p>Psychology</p>
+                                    <p>Romantic</p>
+                                    <p>Detective</p>
+                                    <p>Finance</p>
                                 </div>
 
                             </div>
                             <div className='footer--bottom__title'>
-                                <h4>Lorem Ipsum</h4>
+                                <h4>Our social networks</h4>
                                 <div className='footer--bottom__title--footerA'>
                                     <a href="https://www.instagram.com/danek_books/"><FiInstagram/></a>
                                     <a href=""><BsWhatsapp/></a>
