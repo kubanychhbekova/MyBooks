@@ -1,0 +1,33 @@
+#booksGenres{
+  padding: 0;
+
+  .booksGenres {
+    width: 184px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    &--radio {
+      gap: 16px;
+      display: flex;
+      align-items: center;
+
+      input {
+        width: 20px;
+        height: 20px;
+        border-radius: 8px;
+        border: 1px solid var(--text-color, #19272E);
+
+      }
+
+      label {
+        color: var(--text-color, #19272E);
+        font-size: 16px;
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+
+      }
+    }
+  }
+}
