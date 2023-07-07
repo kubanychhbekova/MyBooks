@@ -1,0 +1,240 @@
+/*#myCart{*/
+/*  .container{*/
+/*    .myCart{*/
+/*      &--yourCart{*/
+/*        &__zagalovok{*/
+/*          margin: 32px 0 40px 0;*/
+
+/*          h1{*/
+/*            margin:100px 0 4px 0;*/
+/*            color:#19272E;*/
+/*            font-family: Public Sans;*/
+/*            font-size: 36px;*/
+/*            font-weight: 600;*/
+/*            line-height: 44px;*/
+/*            letter-spacing: -1.5px;*/
+/*          }*/
+/*          p{*/
+/*            color: #19272E;*/
+/*            font-family: Public Sans;*/
+/*            font-size: 16px;*/
+/*            font-weight: 400;*/
+/*            line-height: 26px;*/
+/*            letter-spacing: -0.2px;*/
+/*            span{*/
+/*              color: skyblue;*/
+/*            }*/
+/*          }*/
+/*        }*/
+/*      }*/
+/*    }*/
+/*  }*/
+/*}*/
+
+
+.yourCart{
+  margin:120px 0 10px 0;
+}
+.zagalovok h1{
+  color:  #19272E;
+  font-size: 36px;
+  font-family: Public Sans;
+  font-weight: 600;
+  line-height: 44px;
+}
+.zagalovok p{
+
+  color: #19272E;
+  font-size: 16px;
+  font-fatmily: Public Sans,sans-serif;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  margin-top: 5px;
+}
+
+.cart_content{
+  margin: 20px 0 0 0;
+  width: 405px;
+  height: 800px;
+}
+.cart_content h1{
+  color:  #19272E;
+  font-size: 22px;
+  font-family: Public Sans;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+.shipping,.Payment{
+  display: flex;
+  justify-content: space-between;
+}
+.shipping h5,.Payment h5,.total h5{
+  font-size: 14px;
+  font-family: Public Sans,sans-serif;
+  margin-bottom:30px ;
+  font-weight: 500;
+  color: #0D0D0D;
+}
+.linear{
+  border: 1px solid black;
+}
+.total{
+  display: flex;
+  justify-content: space-between;
+  margin:30px 0;
+}
+.total p{
+  font-size: 14px;
+  font-family: Public Sans,sans-serif;
+  letter-spacing: -0.3px;
+}
+.btn3{
+  background:  #818EEA;
+  color: #FFFFFF;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: Public Sans,sans-serif;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.4px;
+  cursor:pointer;
+}
+.select_block{
+  display: flex;
+  align-items: center;
+  width: 364px;
+  height: 80.075px;
+  border-radius: 10px;
+  border: 2px solid #818EEA;
+  background:  #FFF;
+  margin-bottom: 15px;
+}
+.select_block h4{
+  color: #19272E;
+  font-size: 16px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.356px;
+  margin: 12px 0 0 15px;
+}
+.select_block2 h4{
+  color: #19272E;
+  font-size: 16px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.356px;
+  margin: 12px 0 0 15px;
+}
+.select_block p{
+  color:  #19272E;
+  font-size: 16px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.356px;
+  margin: 10px 0 0 15px;
+}
+.select_block2 p{
+  color:  #19272E;
+  font-size: 16px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.356px;
+  margin: 10px 0 0 15px;
+}
+.select_block input{
+  width: 18.384px;
+  height: 17.648px;
+  flex-shrink: 0;
+  margin: 0 0 15px 12px;
+
+}
+.select_block2 input{
+  width: 18.384px;
+  height: 17.648px;
+  flex-shrink: 0;
+  margin: 0 0 15px 12px;
+
+}
+.select_block2{
+  display: flex;
+  align-items: center;
+  width: 364px;
+  height: 80.075px;
+  border-radius: 10px;
+  border: 2px solid  #818EEA;
+  background:  #FFF;
+}
+.pay-btn{
+  display: flex;
+  align-items: center;
+  margin: 0 0 20px 0;
+
+}
+
+.btn-1{
+  width: 153.451px;
+  height: 38.363px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid  #818EEA;
+  background:  #FFF;
+  cursor: pointer;
+}
+.btn-1:hover {
+  transform: scale(1.1);
+}
+.btn-2:hover{
+  transform: scale(1.1);
+}
+.btn-2 {
+  width: 153.451px;
+  height: 38.363px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background:  #818EEA;
+  color: #FFFFFF;
+  border: none;
+  margin: 0 0 0 20px;
+  cursor: pointer;
+}
+.payment_block p{
+  color:  #A9ABBD;
+  font-size: 14px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+.register-block{
+  display: flex;
+  justify-content: space-between;
+}
+.month{
+  margin: 0 50px 0 0;
+}
+
+.payment_block input{
+  height: 40px;
+  margin: 0 0 15px 0;
+  border:none;
+  border-bottom: 2px solid #c2bcbc;
+  outline: none;
+}
+.payment_block{
+  display: flex;
+  flex-direction: column;
+}
